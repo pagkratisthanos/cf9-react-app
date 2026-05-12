@@ -1,9 +1,10 @@
-import './App.css'
 
 function App() {
+  //TODO: AD NEW FUNCTIONALITY
 
   return (
     <>
+      Hello World!
     </>
   )
 }
