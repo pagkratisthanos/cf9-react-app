@@ -1,10 +1,14 @@
+import FunctionalComponent from "./components/FunctionalComponent.tsx";
+import ClassComponent from "./components/ClassComponent.tsx";
+import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 
 function App() {
-  //TODO: AD NEW FUNCTIONALITY
 
   return (
     <>
-      Hello World!
+      <FunctionalComponent />
+      <ClassComponent />
+      <ArrowFunctionalComponent />
     </>
   )
 }
