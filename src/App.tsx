@@ -1,11 +1,13 @@
-// impo
-// rt FunctionalComponent from "./components/LessonTwo/FunctionalComponent.tsx";
+// import FunctionalComponent from "./components/LessonTwo/FunctionalComponent.tsx";
 // import ClassComponent from "./components/LessonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 // import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 import Layout from "./components/Layout.tsx";
 // import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
-import NameChanger from "./components/LessonFive/NameChanger.tsx";
+// import NameChanger from "./components/LessonFive/NameChanger.tsx";
+// import CounterWithCustomHook from "./components/LessonFive/CounterWithCustomHook.tsx";
+// import {useEffect} from "react";
+import NameChangerWithTitle from "./components/LessonFive/NameChangerWithTitle.tsx";
 // import Counter from "./components/LessonFour/Counter.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 // import {useState} from "react";
@@ -47,7 +49,20 @@ import NameChanger from "./components/LessonFive/NameChanger.tsx";
 // }
 // // PropsThree = {title, description, price, sort, image}
 
+// function setup() {
+//   alert("count")
+// }
+//
+// useEffect(setup, [count])
+
+
+
 function App() {
+
+    // useEffect(() => {
+    //     alert("Hello World!");
+    //   }
+    //   )
 
     return (
         <>
@@ -74,13 +89,16 @@ function App() {
 
             {/*LESSON FOUR*/}
             {/*<Layout addClasses="bg-gray-50">*/}
-            {/*    /!*<Counter/>*!/*/}
-            {/*    /!*<ClassCounter/>*!/*/}
-            {/*    <CounterAdvanced/>*/}
+            {/*  /!*<Counter/>*!/*/}
+            {/*  /!*<ClassCounter/>*!/*/}
+            {/*  <CounterAdvanced/>*/}
             {/*</Layout>*/}
 
+            {/*LESSON FIVE*/}
             <Layout addClasses="bg-gray-50">
-                <NameChanger/>
+                {/*<NameChanger/>*/}
+                {/*<CounterWithCustomHook/>*/}
+                <NameChangerWithTitle />
             </Layout>
         </>
     )
